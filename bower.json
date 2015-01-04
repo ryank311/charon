@@ -1,0 +1,19 @@
+{
+  "name": "charon",
+  "version": "0.0.0",
+  "authors": [
+    "Ryan King <ryan.mitchell.king@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.2"
+  }
+}
