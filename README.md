@@ -11,4 +11,12 @@ Follow the instructions below to get the project up and running (Project hosted 
 1. Install Bower: http://bower.io/
 2. Navigate to the root foler and run a "bower install"
 3. Install Grunt: http://gruntjs.com/getting-started
+4. Install Ruby + Compass
+
+#Development Mode
+`compass watch
+`lein run
+
+#Run the application
+`lein run
 
