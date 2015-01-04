@@ -7,8 +7,12 @@ caribou_development.trace.db
 /resources/public/js/app/
 pom.xml
 .lein-repl-history
+.sass-cache
 /out
 /repl
 /export
 /db
 /bower_components
+/assets/.sass-cache
+/node_modules
+
