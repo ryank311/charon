@@ -14,9 +14,9 @@ Follow the instructions below to get the project up and running (Project hosted 
 4. Install Ruby + Compass
 
 #Development Mode
-`compass watch'
-`lein run'
+`compass watch`
+`lein run`
 
 #Run the application
-`lein run'
+`lein run`
 
