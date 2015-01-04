@@ -1,0 +1,13 @@
+/caribou-index
+/app/assets
+/checkouts
+caribou_development.h2.db*
+caribou_development.trace.db
+/target
+/resources/public/js/app/
+pom.xml
+.lein-repl-history
+/out
+/repl
+/export
+/db

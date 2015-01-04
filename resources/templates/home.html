@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>charon - Powered By Caribou</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source Sans Pro:300,400,700">
+    <link href="/css/charon.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/favicon.png">
+  </head>
+
+  <body>
+    <header>
+      <img src="/img/caribou-logo.png" width="158" height="139">
+      <h2>Build scalable efficient websites with the tools you need and the flexibility you want.</h2>
+    </header>
+
+    <div class="title">
+      <h1>charon</h1>
+    </div>
+    <div class="container">
+      <div class="grid-block">
+        <div class="col-6">
+          <h1>Get {{verbed}}</a></h1>
+          <p>
+            Caribou provides a fully functioning site immediately, with selectively chosen conventions.</p> 
+          <p>
+            But the beauty is that when you want to expand and alter this basic setup, nothing gets in your way.</p> 
+          <p>
+            All the tools are there, but nothing is imposed upon you.</p>
+          <p>
+            Build exactly what needs to be built with robust and flexible building blocks.
+          </p>
+          <h1>Visit the Admin</h1>
+          <p>
+            Caribou comes with an admin for managing not only your content, routing, users and permissions, but also the Models which define what attributes and relationships your content has.</p>
+          <p>
+            You can find it here: <a href="/_admin/login">caribou admin</a> (user:pass caribou:caribou)
+          </p>
+
+          <h1>Create some Pages</h1>
+          <p>
+            Pages link the routing structure of the site to the controllers and templates that render them.</p>
+          <p>
+            Controllers are written in <a href="http://clojure.org">Clojure</a>.</p>
+          <p>
+            Templates by convention use <a href="http://github.com/antler/antlers">Antlers</a> (which we developed out of a mustache base directly from the needs of several projects)</p>
+          <p>
+            But you can swap it out with whatever you want!
+          </p>
+
+          <h1>Create some Models</h1>
+          <p>
+            If all you need is to render some static templates, you're done.</p>
+          <p>
+            But most likely there is data.  </p>
+          <p>
+            What does your site keep track of?  People?  Projects?  Stories?  Videos?</p>
+          <p>
+            In the admin you can build models of your data and create associations between models.</p>
+          <p>
+            This way the organization of your data reflects real world relationships, and can adapt to needs as they change.</p>
+          <p>
+          </p>
+
+          <h1>Add Content</h1>
+          <p>
+            With your models in place, create some things!</p>
+          <p>
+            Did you make a Person model with a name and an address and a mugshot?</p>
+          <p>
+            Add a couple in the admin!
+          </p>
+
+          <h1>Visit the API</h1>
+          <p>
+            Now that you've made some models and content, you can access it all directly from the <a href="/_api/model">built in API</a>:</p>
+          <p>
+            The scheme is simple:  
+            <ul>
+              <li>/_api/:model shows all instances of a given model.</li>
+              <li>/_api/:model/:id shows a particular instance.</li>
+              <li>/_api/:model/:id?include=:association gathers all content associated through :association.</li>
+            </ul>
+            For example: <a href="/_api/model?include=fields.link&order=id">/_api/model?include=fields.link&order=id</a>
+          </p>
+
+          <h1>Want More?</h1>
+          <p>Check out the <a href="http://caribou.github.io/caribou/docs/outline.html" target="_blank">Docs</a></p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <a href="http://www.weareinstrument.com" target="_blank"><img src="/img/teepee_golden.svg"></a>
+    </footer>
+
+    <!-- <script type="text/javascript" src="/js/app/charon.js"></script> -->
+  </body>
+</html>
